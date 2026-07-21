@@ -4,117 +4,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunburst404 | Light Music GitHub Page</title>
-    <meta
-      name="description"
-      content="Sunburst404 的 GitHub 个人主页。"
-    >
+    <meta name="description" content="Sunburst404 的 GitHub 个人主页，献给轻音、代码与放学后的创作时光。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Noto+Sans+SC:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    >
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Noto+Sans+SC:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="stage-lights" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Sunburst404 首页">
-        <span class="brand-mark">S</span>
-        <span>Sunburst404</span>
-      </a>
-      <nav class="nav" aria-label="页面导航">
-        <a href="#about">About</a>
-        <a href="#projects">Works</a>
-        <a href="#contact">Links</a>
-      </nav>
+      <a class="brand" href="#top" aria-label="Sunburst404 首页"><span class="brand-mark">S</span><span>Sunburst404</span></a>
+      <nav class="nav" aria-label="页面导航"><a href="#about">About</a><a href="#club">Club</a><a href="#projects">Works</a><a href="#contact">Links</a></nav>
     </header>
-
     <main id="top">
       <section class="hero" aria-label="个人主页开场">
-        <img
-          class="hero-image"
-          src="assets/k-on-5-github.jpg"
-          alt="k-on 插画"
-        >
+        <img class="hero-image" src="assets/k-on-5-github.jpg" alt="轻音少女风格的乐队插画">
         <div class="hero-overlay"></div>
-        <div class="music-notes" aria-hidden="true">
-          <span>♪</span>
-          <span>♬</span>
-          <span>♫</span>
-          <span>♩</span>
-        </div>
+        <div class="music-notes" aria-hidden="true"><span>♪</span><span>♫</span><span>♪</span><span>♬</span></div>
         <div class="hero-content">
-          <p class="eyebrow">After School Dev Club</p>
-          <h1>K-ON!!</h1>
-          <p class="hero-copy">
-            这里是 Sunburst404 的 GitHub 主页：
-            记录项目、实验、灵感，以及那些从一点点节奏里长出来的作品。
-          </p>
-          <div class="hero-actions" aria-label="主要链接">
-            <a class="button primary" href="https://github.com/sunburst404">GitHub</a>
-            <a class="button ghost" href="#projects">查看作品</a>
-          </div>
+          <p class="eyebrow">After School Dev Club · #01</p><h1>K-ON!!</h1>
+          <p class="hero-copy">这里是 Sunburst404 的 GitHub 主页。把项目、实验和灵感排成一张放学后的 setlist：先来一杯茶，再写一段会发光的代码。</p>
+          <div class="hero-actions" aria-label="主要链接"><a class="button primary" href="https://github.com/sunburst404">GitHub</a><a class="button ghost" href="#projects">查看作品</a></div>
         </div>
+        <aside class="now-playing" aria-label="正在播放"><div class="record" aria-hidden="true"><span></span></div><div class="track-meta"><span class="playing-label">Now rehearsing</span><strong>After School Coding</strong><span>放課後ティータイム · 03:59</span></div><div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i></div></aside>
       </section>
-
       <section id="about" class="section about-grid">
-        <div>
-          <p class="section-kicker">Profile</p>
-          <h2>轻音、代码、还有一点点闪闪发光的中二感。</h2>
-        </div>
-        <div class="profile-card">
-          <p>
-            我喜欢把技术做得更有画面感：清晰的结构、漂亮的交互、可维护的代码，
-            以及打开页面时能让人停留一秒的氛围。
-          </p>
-          <div class="tags" aria-label="兴趣标签">
-            <span>Frontend</span>
-            <span>GitHub Pages</span>
-            <span>Anime UI</span>
-            <span>Creative Coding</span>
-            <span>Music Mood</span>
-          </div>
+        <div><p class="section-kicker">Profile</p><h2>轻音、代码，还有一点点闪闪发光的中二感。</h2></div>
+        <div class="profile-card"><p>我喜欢把技术做得更有画面感：清晰的结构、漂亮的交互、可维护的代码，以及打开页面时能让人停留一秒的氛围。</p><div class="tags" aria-label="兴趣标签"><span>Frontend</span><span>GitHub Pages</span><span>Anime UI</span><span>Creative Coding</span><span>Music Mood</span></div></div>
+      </section>
+      <section id="club" class="section club-section">
+        <div class="section-heading"><div><p class="section-kicker">Light Music Club</p><h2>放学后，社团教室见。</h2></div><span class="club-stamp">HTT<br><small>member pass</small></span></div>
+        <div class="club-grid">
+          <article class="instrument-card guitar"><span class="instrument-icon">♩</span><h3>Guitar</h3><p>把主旋律写进界面，让每个交互都有一点冲劲。</p></article>
+          <article class="instrument-card keyboard"><span class="instrument-icon">♬</span><h3>Keyboard</h3><p>为作品补上和声：细节、节奏，以及刚刚好的留白。</p></article>
+          <article class="instrument-card bass"><span class="instrument-icon">♫</span><h3>Bass</h3><p>稳定的基础设施，是所有即兴发挥最可靠的低音线。</p></article>
+          <article class="instrument-card tea"><span class="instrument-icon">☕</span><h3>Tea break</h3><p>认真调试之前，先用一杯茶把灵感唤醒。</p></article>
         </div>
       </section>
-
       <section id="projects" class="section">
-        <div class="section-heading">
-          <p class="section-kicker">Works</p>
-          <h2>Demo Setlist</h2>
-        </div>
+        <div class="section-heading"><div><p class="section-kicker">Works</p><h2>Demo Setlist</h2></div><p class="setlist-note">ENCORE / build in public</p></div>
         <div class="project-grid">
-          <article class="project-card">
-            <span class="track-number">01</span>
-            <h3>Introduction Page</h3>
-            <p>一个k-on主题的 GitHub Pages 首页，用来展示个人介绍和项目入口。</p>
-            <a href="https://github.com/sunburst404/IntroductionPage">Repository</a>
-          </article>
-          <article class="project-card">
-            <span class="track-number">02</span>
-            <h3>Creative Experiments</h3>
-            <p>放置未来的小工具、视觉实验、交互页面和学习记录。</p>
-            <a href="https://github.com/sunburst404?tab=repositories">Explore</a>
-          </article>
-          <article class="project-card">
-            <span class="track-number">03</span>
-            <h3>Next Encore</h3>
-            <p>下一首歌还在排练中。新的项目、博客或作品集入口可以继续加到这里。</p>
-            <a href="#contact">Contact</a>
-          </article>
+          <article class="project-card"><span class="track-number">01</span><h3>Introduction Page</h3><p>一个 K-ON! 主题的 GitHub Pages 首页，用来展示个人介绍和项目入口。</p><a href="https://github.com/sunburst404/IntroductionPage">Repository</a></article>
+          <article class="project-card"><span class="track-number">02</span><h3>Creative Experiments</h3><p>放置未来的小工具、视觉实验、交互页面和学习记录。</p><a href="https://github.com/sunburst404?tab=repositories">Explore</a></article>
+          <article class="project-card"><span class="track-number">03</span><h3>Next Encore</h3><p>下一首歌还在排练中。新的项目、博客或作品集入口可以继续加到这里。</p><a href="#contact">Contact</a></article>
         </div>
       </section>
-
-      <section id="contact" class="section contact-band">
-        <div>
-          <p class="section-kicker">Links</p>
-          <h2>演出结束后，欢迎来后台看看。</h2>
-        </div>
-        <div class="link-row">
-          <a href="https://github.com/sunburst404">GitHub Profile</a>
-          <a href="https://github.com/sunburst404/IntroductionPage">This Repo</a>
-        </div>
-      </section>
+      <section id="contact" class="section contact-band"><div><p class="section-kicker">Links</p><h2>演出结束后，欢迎来后台看看。</h2></div><div class="link-row"><a href="https://github.com/sunburst404">GitHub Profile</a><a href="https://github.com/sunburst404/IntroductionPage">This Repo</a></div></section>
     </main>
   </body>
 </html>
